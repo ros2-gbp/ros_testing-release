@@ -2,6 +2,9 @@
 Changelog for package ros_testing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.0 (2026-05-06)
+-------------------
+
 0.9.1 (2025-07-29)
 ------------------
 * fix cmake deprecation (`#17 <https://github.com/ros2/ros_testing/issues/17>`_)
