@@ -1,3 +1,28 @@
+## ros_testing (jazzy) - 0.6.1-1
+
+The packages in the `ros_testing` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --track jazzy --rosdistro jazzy ros_testing` on `Tue, 02 Jun 2026 08:17:48 -0000`
+
+These packages were released:
+- `ros2test`
+- `ros_testing`
+
+Version of package(s) in repository `ros_testing`:
+
+- upstream repository: https://github.com/ros2/ros_testing.git
+- release repository: https://github.com/ros2-gbp/ros_testing-release.git
+- rosdistro version: `0.6.0-3`
+- old version: `0.6.0-3`
+- new version: `0.6.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## ros_testing (rolling) - 0.10.0-1
 
 The packages in the `ros_testing` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling ros_testing` on `Wed, 06 May 2026 18:17:49 -0000`
