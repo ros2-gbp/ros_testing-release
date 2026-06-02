@@ -2,23 +2,7 @@
 Changelog for package ros2test
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.10.0 (2026-05-06)
--------------------
-
-0.9.1 (2025-07-29)
-------------------
-* fix setuptools deprecations (`#16 <https://github.com/ros2/ros_testing/issues/16>`_)
-* Contributors: mosfet80
-
-0.9.0 (2025-04-25)
-------------------
-
-0.8.0 (2024-11-20)
-------------------
-* Add in test_xmllint to ros2test. (`#13 <https://github.com/ros2/ros_testing/issues/13>`_)
-* Contributors: Chris Lalancette
-
-0.7.0 (2024-04-26)
+0.6.1 (2026-06-02)
 ------------------
 
 0.6.0 (2023-04-28)

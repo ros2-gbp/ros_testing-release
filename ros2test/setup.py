@@ -5,7 +5,7 @@ package_name = 'ros2test'
 
 setup(
     name=package_name,
-    version='0.10.0',
+    version='0.6.1',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
@@ -24,17 +24,14 @@ setup(
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
     ],
     description='The test command for ROS 2 launch tests.',
     long_description="""\
 This package provides the test command for ROS 2 launch tests.""",
     license='Apache License, Version 2.0',
-    extras_require={
-        'test': [
-            'pytest',
-        ],
-    },
+    tests_require=['pytest'],
     entry_points={
         'ros2cli.command': [
             'test = ros2test.command.test:TestCommand',
